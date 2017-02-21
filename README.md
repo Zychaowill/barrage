@@ -1,7 +1,7 @@
 # barrage
 A simple barrage based on JavaScript
 
-# 该插件仅简单实现了弹幕的效果，包括定时器。略有不足，仅供学习参考。
+**该插件仅简单实现了弹幕的效果，包括定时器。略有不足，仅供学习参考。**
 
 - **模块化编程**
 
@@ -33,21 +33,21 @@ A simple barrage based on JavaScript
 
 - **弹幕插件API**
 
-each(callback):
+  each(callback):
 
-on(event, callback):
+  on(event, callback):
 
-css(attribute, value):
+  css(attribute, value):
 
-val(value):
+  val(value):
 
-html(value):
+  html(value):
 
-append(childNode):
+  append(childNode):
 
-offset(): 该方法返回值为一个对象(包含width、height、left、top属性)
+  offset(): 该方法返回值为一个对象(包含width、height、left、top属性)
 
-trigger(event):
+  trigger(event):
 
 
 - **弹幕定时器**
