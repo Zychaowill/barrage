@@ -45,13 +45,6 @@
       return this[0].value;
     },
 
-    append: function(childNode) {
-        this.each(function(_, dom) {
-          dom.appendChild(childNode);
-        });
-      return this;
-    },
-
     html: function(value) {
       if (undefined != value) {
         this.each(function(_, dom) {
@@ -60,6 +53,13 @@
         return this;
       }
       return this[0].innerHTML;
+    },
+
+    append: function(childNode) {
+        this.each(function(_, dom) {
+          dom.appendChild(childNode);
+        });
+      return this;
     },
 
     offset: function() {
