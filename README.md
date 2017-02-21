@@ -1,2 +1,2 @@
 # barrage
-A simple barrage based on jQuery
+A simple barrage based on JavaScript
